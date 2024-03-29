@@ -1,0 +1,62 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: #080A0C;
+    font-family: "Archivo", sans-serif;
+}
+@media (min-width: 320px) and (max-width: 480px) {
+.illus{
+    display: flex;
+    justify-content: center;
+    margin-top: 150px;
+}
+.texts{
+    display: flex;
+    flex-direction: column;
+    margin-top: 70px;
+    position: absolute;
+    left: 120px;
+    
+}
+.text{
+    color: white;
+    font-size: 40px;
+    text-align: center;
+}
+.title{
+    margin-bottom: 77px;
+}
+.circle{
+    border-radius: 50%;
+    background-color: #384657;
+    height: 9px;
+    width: 9px;
+}
+.circles{
+    display: flex;
+    flex-direction: row;
+    gap: 4px;
+    justify-content: center;
+    position: relative;
+    top: 280px;
+}
+.circle1{
+    background-color: #3D8DFF;
+}
+.button{
+    border: none;
+    border-radius: 80px;
+    padding: 18px 100.5px;
+    background-color: #202832;
+    width: 150px;
+    color: white;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    position: relative;
+    bottom: -320px;
+    left: 30px;
+}
+}
